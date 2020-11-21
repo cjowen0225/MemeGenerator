@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Link rel="stylesheet" href="MemeGenerator.css" />
+</head>
+<body>
+    <h1>Meme Generator</h1>
+    <h5>Sumbit the form below to Create New Memes!</h5>
+    <form id="MemeForm">
+        <label class="FormDescriptions">Image URL</label>
+        <input id="URL" type="text" placeholder="Enter the URL for your MEME Image HERE!"><br>
+        <label class="FormDescriptions">Top Text</label>
+        <input id="TopText" type="text" placeholder="(Optional) Input the words for the top of your MEME"><br>
+        <label class="FormDescriptions">Bottom Text</label>
+        <input id="BottomText" type="text" placeholder="(Optional; 35 Character Max) Input the words for the bottom of your MEME"><br>
+        <input id="butt" type="submit" value="CREATE A MEME!">
+    </form>
+    <hr>
+    <div id="Memes">
+    </div>
+    <p id="remove">Note: You may remove a MEME by clicking on the image.</p>
+    <script src="MemeGenerator.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+	background-color: #6ccec96c;
+}
+
+h1,
+h5 {
+	text-align: center;
+	font-family: sans;
+	margin: 0px;
+}
+
+.FormDescriptions {
+	display: inline-block;
+	float: left;
+	clear: left;
+	width: 15%;
+	font-family: sans;
+}
+
+input[type="text"] {
+	display: inline-block;
+	float: right;
+	width: 80%;
+	font-family: sans;
+	border-radius: 5px;
+}
+
+#butt {
+	border-radius: 5px;
+	background-color: #e6a249;
+	font-size: 15px;
+	font-family: sans;
+}
+
+.top {
+	width: 300px;
+	height: 20px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	color: white;
+	font-size: 20px;
+	font-family: sans;
+}
+
+.bottom {
+	width: 300px;
+	height: 20px;
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: sans;
+}
+
+.newDiv {
+	display: inline-block;
+	position: relative;
+	background-size: contain;
+	width: 300px;
+	height: 150px;
+	margin: 5px;
+}
